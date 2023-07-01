@@ -1,7 +1,7 @@
 NodeJS 
     - NodeJS is the server side scripting language.
     - NodeJS used to develop the servers
-        Https server
+        https server
         TCP Server
     - we will build NodeJS application in two ways. 
         1) JavaScript
