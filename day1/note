@@ -1,0 +1,63 @@
+# what is NodeJS 
+NodeJS -> NodeJS is the server side language technology 
+
+
+# Use Of NodeJS
+NodeJS is used to develop servers
+which servers - http server and TCP servers
+
+how to develop nodejs application 
+1. JS
+    Scripting Language
+    Not OOPS
+2. TS
+    Programming Language
+    Microsoft 
+    OOPS
+
+
+NodeJS is the serverless Application
+
+
+
+NodeJS With TypeScript
+Topics
+    NodeJS 
+     1. ExpressJS (FRAMEWORK)
+            Rest Services
+                GET
+                POST 
+                PUT
+                HEAD
+                TRACE
+                ----
+                ----
+     2. DataBases CRUD Operations
+        => MongoDB 
+            (NoSQL)
+            (JSON Based)
+
+        => MySQL
+        => SQL Server
+        => Oracle
+
+     3. Middlewares
+     4. Authentications
+            JWT Authentication -> (JSON Web Token)
+     5. Http Server
+     6. Chat App
+     7. Muter Module (image Upload & download)   
+     8. Email Sending
+     9. Integrations 
+        Angular
+        React 
+        VueJS
+    10. Deployment
+
+
+
+      
+FullStack Web Dev design
+React   - 2 months    
+NodeJS  - 2 months
+Angular - 2 months

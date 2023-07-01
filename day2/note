@@ -1,0 +1,76 @@
+NodeJS 
+    - NodeJS is the server side scripting language.
+    - NodeJS used to develop the servers
+        Https server
+        TCP Server
+    - we will build NodeJS application in two ways. 
+        1) JavaScript
+        2) TypeScript
+
+    - JavaScript is not the object Oriented.: inheritance,overloading,overriding
+    - JavaScript is the object Based Scripting language. : like date() by netscape
+    - TypeScript is the programming language , provided by  microsoft and the follow OOPS.
+
+
+ NodeJS supports modules(library) (predefined libraries & user defined libraries).
+    Modules
+        1) http
+            - http module used to build the http servers.
+        2) fs 
+            - fs stands for file system. 
+            - fs module used to interact with the flat files
+                (text files
+                xml files 
+                json files,
+                ---
+                --- 
+                )
+        3) express 
+            - express module used to develop the rest services
+                GET 
+                POST
+                PUT
+                DELETE
+                ---
+                ---
+                ---
+        4) mongodb(without schema) 
+            - mongodb module used to interact with the mongodb database.
+        
+        5) mysql
+            - mysql module used to interact with the mysql database.
+        
+        6) mssql
+            - this module used to interact with the SQLServer.
+
+        7) multer 
+         - multer module used to upload and download images from the server.
+        
+        8) socket.io
+            - socket.io module used to implement the chat applications.
+
+        9) cors 
+            - used to enable the ports communications.
+        frontend                                              backend 
+         angular(4200)                                          Nodejs server(8080)
+         React(3000)
+
+
+        10) body-parser
+                - used to receive the data from client applications.
+        
+        11) JWT 
+             - used to implement the token based authentication.
+
+        ----------------------
+        ----------------------
+
+        we will download above modules by using "npm" or "yarn" tool
+        "npm" stands for node packaging manager.
+        "npm" present in NODEJS.
+        "npm" tool is the Synchronous tool.
+        "yarn" tool given by the facebook.
+        "yarn" tool is the asynchronous tool.
+
+
+Note : above module downloads to "node_modules" folded in current path

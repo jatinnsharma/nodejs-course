@@ -1,0 +1,43 @@
+modules
+mongodb(without schema)
+    interact with mongodb database without (schema =>rules & regulations).
+
+mongoose(with schema)
+    interact with mongodb database with schema.
+
+oradb 
+    connect with oracle database
+
+JWT -simple 
+    token based 
+
+
+Note : above module downloads to "node_modules" folded in current path
+
+
+
+Software installations
+----------------------
+1) Download and install NodeJS
+    website: https://nodejs.org/en/download/
+
+2)  install yarn tool
+    > npm install -g yarn
+    -g stands for global installation
+
+3) download and install VisualStudioCode
+    website: https://code.visualstudio.com/download
+
+
+
+Download the modules
+--------------------
+NPM
+---
+> npm install express --save(node modules)
+> npm install express mongodb mongoose mysql --save
+--save : is used to save the version
+
+yarn
+----
+> yarn add express mongodb mongodb mongoose mysql --save
