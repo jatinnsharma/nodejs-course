@@ -14,7 +14,7 @@ let server = http.createServer((req,res)=>{
 })
 
 //  res -> replay to the client
-//  req -> 
+//  req -> receive the data from the client
 
 
 server.listen(8080);

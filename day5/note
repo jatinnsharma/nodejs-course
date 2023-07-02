@@ -1,0 +1,13 @@
+what is Express.js
+express is the 3rd party module is nodejs.
+express is the framework (rest framework)
+express framework used to develop the rest services EX. GET,POST,PUT,DELETE,...
+express module , we will download by using either "yarn" tool or "npm" tool
+
+Ex. 
+  npm install express --save
+          or
+  yarn add express --save
+
+
+all the modules downloads to "node_modules" folder in current path
