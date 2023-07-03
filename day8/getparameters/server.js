@@ -1,22 +1,22 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //http://localhost:8080/login?uname=admin&upwd=admin
 // req.query.uname 
 // req.query.upwd
-import * as express from 'express';
-
-let app:any = express();
-
+var express = require("express");
+var app = express();
 // authorization
-let auth = (req:any,res:any,next:any):any=>{
-    let allHeaders = req.headers;
-    if(allHeaders.token === 'ashokIT'){
-        next()
-    }else{
-        res.status(500).json({auth:'fail'});
+var auth = function (req, res, next) {
+    var allHeaders = req.headers;
+    if (allHeaders.token === 'ashokIT') {
+        next();
     }
-}
-
+    else {
+        res.status(500).json({ auth: 'fail' });
+    }
+};
 // authentication
-app.get('/login', [auth], (req:any, res:any):any => {
+app.get('/login', function (req, res) {
     if (req.query.uname === "Jatin" && req.query.upwd === 'Jatin') {
         res.status(200).json({ login: 'success' });
     }
@@ -24,11 +24,9 @@ app.get('/login', [auth], (req:any, res:any):any => {
         res.status(400).json({ login: 'failed' });
     }
 });
-
-app.get('/',(req:any,res:any):any=>{
+app.get('/', function (req, res) {
     res.sendFile('D:/nodejs-course/day8/getparameters/index.html');
 });
-
 app.listen(8081, function () {
     console.log("Sever start");
 });
