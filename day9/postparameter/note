@@ -1,0 +1,7 @@
+=> express @types/express (Rest Services) to develop
+=> body-parser @types/body-parser - to read post parameters
+=> if you want to do any task in the rest services use app data
+=> authorization -> token based 
+=> authenticaion -> login based
+while enter into company you need to show authorization card.
+after enter into compay you need to login with you id and password.
