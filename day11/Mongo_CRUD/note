@@ -1,0 +1,92 @@
+
+NPM
+>npm install express mongodb mongoose mysql --save
+
+yarn
+>yarn add express mongodb mongoose mysql --save
+
+
+# MongoDB
+  - MongoDB is NoSQl Database.
+  - MongoDB supports the JSON.
+  - MongoDB is the light weight database.
+  - Mongo database follows the 'mongodb' protocol.
+  - MongoDB by default running on port '27017'
+
+
+Terminolgy 
+-----------
+    SQL                                             NoSQL
+    
+Ex. 
+    Oracle,MySQl,SQLServer                        MongoDB,CassandraDB
+    database                                      database
+    tables                                        collections
+    records                                       document
+    column                                        field
+
+
+libraries
+---------
+1)mongodb 
+        - this library helps to connect to mongodb database without schema(rules &)
+
+2) mongoose
+        - this library helps to connect to mongodb database with schema 
+
+
+MonogDB provide the "cloud environment" in the form of "MongoDB Atlas"
+
+URL: hhtps://www.mongodb/cloud/atlas
+
+
+Details of database
+--------------------
+
+database name : jatinnsharma
+collection name : products
+username : admin
+password : admin
+collection url : mongodb+srv://admin:admin@miniprojectdb.nz
+
+
+
+MongoDB CRUD Operations by "mongodb" library
+
+1) create the directory (folder)
+    
+    Ex.
+      MongoDb_CRUD
+
+
+2) download the libraries by using "npm" or 'yarn' tool
+
+    => 1)mongodb    2)@types/mongodb
+
+          -used to connect ot mongodb database
+        1) express     2)@types/express
+
+
+    => body-parser @types/body-parser
+
+          - used to receive the data from 'cliend'  applications
+
+
+> yarnd add mongodb @types/mongodb express @types/express cors @types/cors body-parses
+
+
+
+**************************************************************************************
+Mongo_CRUD 
+      fetch
+        fetch.ts
+      insert
+        insert.ts
+      update
+        updata.ts
+      delete
+        delete.ts
+      server.ts
+
+**************************************************************************************
+
