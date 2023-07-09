@@ -12,6 +12,8 @@ yarn
   - MongoDB is the light weight database.
   - Mongo database follows the 'mongodb' protocol.
   - MongoDB by default running on port '27017'
+  - MonogoDB database follow the client server architecture.
+
 
 
 Terminolgy 
@@ -29,16 +31,22 @@ Ex.
 libraries
 ---------
 1)mongodb 
-        - this library helps to connect to mongodb database without schema(rules &)
+        - this library helps to connect to mongodb database without schema(rules & regulations)
+
+        "employees" (table)
+
+
+        #example
+        employees.insert('eid':1,'ename':'ecom','esal':'10000')
+        employees.insert('pid':132,'pname':'bed','cost':'10000')
 
 2) mongoose
         - this library helps to connect to mongodb database with schema 
 
 
 MonogDB provide the "cloud environment" in the form of "MongoDB Atlas"
-
 URL: hhtps://www.mongodb/cloud/atlas
-
+--------------------------------------------------------------------------
 
 Details of database
 --------------------
@@ -62,17 +70,20 @@ MongoDB CRUD Operations by "mongodb" library
 2) download the libraries by using "npm" or 'yarn' tool
 
     => 1)mongodb    2)@types/mongodb
+          -used to connect to mongodb database
 
-          -used to connect ot mongodb database
         1) express     2)@types/express
+          -used to develop the rest apis
 
+        => cors       @types/cors
+        -enable the ports commnication 
+        -used to overcome the cors policy
 
     => body-parser @types/body-parser
+          - used to receive the data from 'client'  applications
 
-          - used to receive the data from 'cliend'  applications
 
-
-> yarnd add mongodb @types/mongodb express @types/express cors @types/cors body-parses
+> yarn add mongodb @types/mongodb express @types/express cors @types/cors body-parses
 
 
 
