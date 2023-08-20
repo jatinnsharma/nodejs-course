@@ -1,0 +1,50 @@
+what is MongoDB?
+-------------------
+- MongoDB is an open-source,document-oriented NoSQL database management system.
+- Designed for flexibility , scalability and performance in handling unstructured or semi-structured data.
+
+More about MongoDB
+--------------------
+It was created by a company called 10gen,which is now known as 
+MongoDB. 
+in 2007.
+10gen-->MongoDB
+
+
+
+SQL 
+----
+- SQL database are relational databases.
+- They use structured tables to store data in rows and columns.
+- Suitable for application with well-defined schemas and fixed  data structures.
+- E-commerce Platform,HR Management etc.
+- Examples:MySQL,PostgreSQL, Oracle.
+
+
+MongoDB(NoSQL)
+----------------
+- NoSQL databases are non-relational databases.
+- They provide flexibility in data storage,allowing varied data types and structures.
+- Ideal for applications with dynamic or evolving data models 
+- CMS,Social Media Platforms,Gaming
+
+
+How MongoDB works?
+--------------------
+frontend talk with backend 
+then backend talk with MongoDB server , MongoDB have storage Engine that have read & write Data files which talk with database.
+
+
+
+JSON Vs BSON
+-------------------
+- IN MongoDB , we write in JSON format only but behind the scene data is   stored in BSON(Binary JSON) format , a binary representation of JSON.
+
+- By utilizing BSON , MongoDB can achieve 
+    - higher read 
+    - Write speeds
+    - reduced storage requirements,
+    - improved data manipulation capabilities
+    - maintaining performaing efficiency.
+
+
