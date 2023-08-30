@@ -1,0 +1,19 @@
+JS on Browser? What is Node.JS?
+--------------------------------
+What is Node JS 
+----------------
+Node js is runtime JavaScript environment 
+
+
+
+Browser JS vs Node JS 
+-----------------------
+- Node JS is some kind of browser less JavaScript enviroment 
+- Node JS is used for 
+- API building 
+- back-end development 
+- CLI application development
+- Node doesnt hv Dom ,no ui,which can visualize which we can shown the ui.
+  like we hv react js , next js 
+- it just a commmand line tool
+
